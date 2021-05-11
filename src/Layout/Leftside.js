@@ -5,7 +5,7 @@ export class Leftside extends Component {
     return (
       <div>
         <ul
-          className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+          className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled"
           id="accordionSidebar"
         >
           <a
