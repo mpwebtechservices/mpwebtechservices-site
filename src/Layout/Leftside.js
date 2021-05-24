@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { FaHome } from "react-icons/fa";
+import { IoFastFoodOutline } from "react-icons/io5";
+
 export class Leftside extends Component {
   render() {
     return (
@@ -26,9 +28,9 @@ export class Leftside extends Component {
           <hr className="sidebar-divider" />
           <div className="sidebar-heading">Applications</div>
           <li className="nav-item active">
-            <a className="nav-link" href="/movies">
-              <FaHome />
-              <span className="mx-3">Movies / TV Show</span>
+            <a className="nav-link" href="/food-corner">
+              <IoFastFoodOutline />
+              <span className="mx-3">Food Corner</span>
             </a>
           </li>
           <hr className="sidebar-divider" />
