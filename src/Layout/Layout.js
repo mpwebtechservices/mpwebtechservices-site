@@ -11,13 +11,13 @@ export class Layout extends Component {
     return (
       <div>
         <div id="wrapper">
-          <Leftside></Leftside>
+          {/* <Leftside></Leftside> */}
           <div id="content-wrapper" className="d-flex flex-column">
             <div id="content">
-              <Header />
+              {/* <Header /> */}
               <Home />
             </div>
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </div>
       </div>

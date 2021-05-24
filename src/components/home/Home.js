@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-import "./home.css";
-
+import CovidInfo from "../covidInfo";
 class Home extends Component {
   state = {};
   render() {
-    return (
-      <div>
-        <p id="welcome-text">Welcome To MP Web Tech Services!</p>
-      </div>
-    );
+    return <CovidInfo />;
   }
 }
 
