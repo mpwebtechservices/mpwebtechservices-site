@@ -4,6 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/_main.scss";
 
 
-import App from "./components/app/App";
+import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById("root"));

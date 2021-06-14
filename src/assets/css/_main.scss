@@ -1,8 +1,12 @@
-@import "./covid";
+@import "header", "covid";
 
-.app {
-  margin: 0px 10%;
-  background-color: khaki;
+.app-container {
+  font-family: sans-serif;
+  background-color: #ffffff;
+
+  a {
+    text-decoration: none;
+  }
 
   #welcome-text {
     animation-name: welcome-text-animation;
@@ -36,5 +40,5 @@
       left: 0px;
       top: 0px;
     }
-  }  
+  }
 }
